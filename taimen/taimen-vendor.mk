@@ -83,7 +83,6 @@ PRODUCT_PACKAGES += \
     OBDM_Permissions \
     OemDmTrigger \
     QtiTelephonyService \
-    SSRestartDetector \
     SprintDM \
     SprintHM \
     TimeService \
@@ -92,7 +91,6 @@ PRODUCT_PACKAGES += \
     WfcActivation \
     MyVerizonServices \
     VerizonAuthDialog \
-    datastatusnotification \
     obdm_stub \
     qcrilmsgtunnel \
     VerizonUnifiedSettings \
