@@ -66,6 +66,7 @@ PRODUCT_PACKAGES += \
     Tycho \
     EaselServicePrebuilt \
     VZWAPNLib \
+    datastatusnotification \
     embms \
     ims \
     CNEService \
