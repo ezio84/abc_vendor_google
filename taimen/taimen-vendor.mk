@@ -41,6 +41,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/etc/permissions/vzw_mvs_permissions.xml:system/etc/permissions/vzw_mvs_permissions.xml \
     vendor/google/taimen/proprietary/lib/dsp/elmyra.so:system/lib/dsp/elmyra.so \
     vendor/google/taimen/proprietary/lib/com.qualcomm.qti.imsrtpservice@1.0.so:system/lib/com.qualcomm.qti.imsrtpservice@1.0.so \
+    vendor/google/taimen/proprietary/lib/com.qualcomm.qti.ims.radio@1.0.so:system/lib/com.qualcomm.qti.ims.radio@1.0.so \
+    vendor/google/taimen/proprietary/lib/com.qualcomm.qti.qcril.qcrilhook@1.0.so:system/lib/com.qualcomm.qti.qcril.qcrilhook@1.0.so \
+    vendor/google/taimen/proprietary/lib/vendor.qti.qcril.am@1.0.so:system/lib/vendor.qti.qcril.am@1.0.so \
     vendor/google/taimen/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
     vendor/google/taimen/proprietary/lib/lib-imsvt.so:system/lib/lib-imsvt.so \
     vendor/google/taimen/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
@@ -52,6 +55,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/google/taimen/proprietary/lib/librcc.so:system/lib/librcc.so \
     vendor/google/taimen/proprietary/lib64/com.qualcomm.qti.imsrtpservice@1.0.so:system/lib64/com.qualcomm.qti.imsrtpservice@1.0.so \
+    vendor/google/taimen/proprietary/lib64/com.qualcomm.qti.ims.radio@1.0.so:system/lib64/com.qualcomm.qti.ims.radio@1.0.so \
+    vendor/google/taimen/proprietary/lib64/com.qualcomm.qti.qcril.qcrilhook@1.0.so:system/lib64/com.qualcomm.qti.qcril.qcrilhook@1.0.so \
+    vendor/google/taimen/proprietary/lib64/vendor.qti.qcril.am@1.0.so:system/lib64/vendor.qti.qcril.am@1.0.so \
     vendor/google/taimen/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/google/taimen/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/google/taimen/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
