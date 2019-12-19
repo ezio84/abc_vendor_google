@@ -20,11 +20,9 @@ PRODUCT_PACKAGES += \
     ims \
     PresencePolling \
     QAS_DVC_MSP \
-    QAS_DVC_MSP_VZW \
     QtiTelephonyService \
     RcsService \
-    uceShimService \
-    vzw_msdc_api
+    uceShimService
 
 # Prebuilt system privileged apps
 PRODUCT_PACKAGES += \
@@ -366,7 +364,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/bonito/proprietary/product/etc/res/images/charger/battery_scale.png:$(TARGET_COPY_OUT_PRODUCT)/etc/res/images/charger/battery_scale.png \
     vendor/google/bonito/proprietary/product/etc/res/images/charger/main_font.png:$(TARGET_COPY_OUT_PRODUCT)/etc/res/images/charger/main_font.png \
     vendor/google/bonito/proprietary/product/etc/res/values/charger/animation.txt:$(TARGET_COPY_OUT_PRODUCT)/etc/res/values/charger/animation.txt \
-    vendor/google/bonito/proprietary/product/etc/sysconfig/pixel_2018_exclusive.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_2018_exclusive.xml \
+    vendor/google/bonito/proprietary/product/etc/sysconfig/pixel_2019_midyear_exclusive.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_2019_midyear_exclusive.xml \
+    vendor/google/bonito/proprietary/product/etc/sysconfig/pixel_experience_2019_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2019_midyear.xml \
     vendor/google/bonito/proprietary/product/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/qti_whitelist.xml \
     vendor/google/bonito/proprietary/product/etc/sysconfig/tmo_grsu_sysconfig.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/tmo_grsu_sysconfig.xml \
     vendor/google/bonito/proprietary/product/etc/sysconfig/vzw_mvs_sysconfig.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/vzw_mvs_sysconfig.xml \
@@ -380,7 +379,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/bonito/proprietary/product/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/google/bonito/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
     vendor/google/bonito/proprietary/product/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptXHD_encoder.so \
-    vendor/google/bonito/proprietary/product/lib64/libgdx.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libgdx.so \
     vendor/google/bonito/proprietary/product/lib64/libsecureuisvc_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsecureuisvc_jni.so \
     vendor/google/bonito/proprietary/product/lib64/vendor.google.wifi_ext@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.google.wifi_ext@1.0.so \
     vendor/google/bonito/proprietary/product/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
