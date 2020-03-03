@@ -234,6 +234,7 @@ PRODUCT_PACKAGES += \
     DMService \
     EuiccGoogle \
     EuiccSupportPixel \
+    GCS \
     grilservice \
     HardwareInfo \
     HotwordEnrollmentOKGoogleRT5514 \
@@ -249,13 +250,8 @@ PRODUCT_PACKAGES += \
     SprintDM \
     SprintHM \
     TetheringEntitlement \
-    TmobileGrsuPrebuilt \
     VzwOmaTrigger \
     WfcActivation
-
-# Prebuilt product jars
-#PRODUCT_PACKAGES += \
-   # libhwinfo
 
 PRODUCT_COPY_FILES += \
     vendor/google/bonito/proprietary/product/etc/ambient/matcher_tah.leveldb:$(TARGET_COPY_OUT_PRODUCT)/etc/ambient/matcher_tah.leveldb \
