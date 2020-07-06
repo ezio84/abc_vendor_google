@@ -28,7 +28,6 @@ PRODUCT_PACKAGES += \
     DCMO \
     DiagMon \
     DMService \
-    embms \
     EuiccGoogle \
     EuiccSupportPixel \
     GCS \
@@ -40,7 +39,6 @@ PRODUCT_PACKAGES += \
     MyVerizonServices \
     OBDM_Permissions \
     obdm_stub \
-    QAS_DVC_MSP_VZW \
     QtiTelephonyService \
     qcrilmsgtunnel \
     SprintDM \
@@ -51,7 +49,6 @@ PRODUCT_PACKAGES += \
     uceShimService \
     VZWAPNLib \
     VzwOmaTrigger \
-    vzw_msdc_api \
     WfcActivation
 
 # Prebuilt jars
@@ -60,7 +57,6 @@ PRODUCT_PACKAGES += \
     com.google.android.camera.experimental2017 \
     com.quicinc.cne.api-V1.0-java \
     com.quicinc.cne \
-    embmslibrary \
     libhwinfo \
     qcrilhook \
     rcsimssettings \
@@ -77,7 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/etc/permissions/com.android.vzwomatrigger.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.android.vzwomatrigger.xml \
     vendor/google/taimen/proprietary/etc/permissions/com.customermobile.preload.vzw.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.customermobile.preload.vzw.xml \
     vendor/google/taimen/proprietary/etc/permissions/com.google.android.camera.experimental2017.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.google.android.camera.experimental2017.xml \
-    vendor/google/taimen/proprietary/etc/permissions/com.verizon.embms.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.verizon.embms.xml \
     vendor/google/taimen/proprietary/etc/permissions/com.verizon.llkagent.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.verizon.llkagent.xml \
     vendor/google/taimen/proprietary/etc/permissions/privapp-permissions-aosp_wahoo.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-aosp_wahoo.xml \
     vendor/google/taimen/proprietary/etc/permissions/privapp-permissions-google.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-google.xml \
